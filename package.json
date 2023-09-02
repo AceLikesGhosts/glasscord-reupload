@@ -1,0 +1,49 @@
+{
+  "name": "glasscord",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Injecting composition effects into Electron applications",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "package": "node package.js",
+    "postinstall": "node package.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryToNeX/Glasscord.git"
+  },
+  "keywords": [
+    "electron",
+    "glass",
+    "blur",
+    "composition",
+    "transparency",
+    "injector",
+    "injection"
+  ],
+  "author": "Naomi Calabretta <me@arytonex.pw> (http://arytonex.pw)",
+  "license": "Apache-2.0",
+  "funding": {
+    "url": "https://patreon.com/arytonex"
+  },
+  "bugs": {
+    "url": "https://github.com/AryToNeX/Glasscord/issues"
+  },
+  "homepage": "https://github.com/AryToNeX/Glasscord#readme",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "glasstron": "0.0.7",
+    "json5": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/eslint-parser": "^7.13.4",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "asar": "^3.0.3",
+    "glob": "^7.1.6",
+    "eslint": "^7.20.0"
+  }
+}
